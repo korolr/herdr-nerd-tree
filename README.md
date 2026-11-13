@@ -1,22 +1,11 @@
 # herdr-nerd-tree
 
-The [Herdr](https://herdr.dev) app's sidebar as a tree you can drive from the
-keyboard: every space with its tabs right under it, the agents list kept
-separate, and vim keys to walk it — the way NERDTree let you walk a project
-without reaching for the mouse.
+The [Herdr](https://herdr.dev) app's sidebar as a tree: every space with its
+tabs right under it, the agents list kept separate — and **vim keys** to walk
+it (`j`/`k`, `h`/`l`, `Enter`), the way NERDTree lets you walk a project in vim
+without reaching for the mouse. `cmd-shift-e` to start.
 
 ![herdr-nerd-tree](preview.png)
-
-```
-Spaces                                  +
-⌄ [S] shop            checkout     ◌  +
-      🤖 agent                  ›  ◌  ×
-      ▣  diff
-      ⑂  git
-⌄ [N] notes
-      🤖 claude                     ●
-      >_ shell
-```
 
 ## Why
 
@@ -43,12 +32,12 @@ right idea, and this started as a copy of it. Three things made us rewrite it:
 It also keeps the tab chips in the top bar (the fork hid them): tabs in both
 places, `cmd-shift-t` to hide them there.
 
-## Keys
+## Keys — vim-style, as in NERDTree
 
 `cmd-shift-e` gives the sidebar the keyboard (as Explorer in VS Code), and so
 does moving left out of the leftmost pane (`pane.go`, `cmd-alt-left` by
 default). A ring marks the row under the cursor while it has the keyboard, and
-the header shows `j k  h l  ⏎  esc`.
+the header shows `vim: j k h l ⏎ esc`.
 
 | key | does |
 |---|---|

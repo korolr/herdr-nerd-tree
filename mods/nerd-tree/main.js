@@ -799,7 +799,7 @@ export default class Spaces extends View {
       .on_key_down((e, cx) => this.key(e, cx))
       .child(h_flex().h(31).pl(16).pr(10).items_center().justify_between().text_size(11.5).text_color(t.dim)
         .when(!collapsed, el => el.child(div().flex_1().child("Spaces")))
-        .when(!collapsed && this.focused, el => el.child(div().flex_none().mr(6).text_size(10.5).child("j k  h l  ⏎  esc")))
+        .when(!collapsed && this.focused, el => el.child(div().flex_none().mr(6).text_size(10.5).child("vim: j k h l ⏎ esc")))
         .child(div().id("space-new").size(26).flex_none().flex().items_center().justify_center().rounded(6).hover(s => s.bg(t.hover).text_color(t.foreground))
           .on_click(() => run("space.new")).child(svg("mods/workspace-chrome/plus.svg").size(14))))
       .child(v_flex().id("space-list").flex_1().min_h(0).px(8).pb(14).overflow_y_scrollbar().mode("always").track_scroll(this.scroll)

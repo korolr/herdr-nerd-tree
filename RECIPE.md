@@ -15,7 +15,7 @@ Left to right: the sidebar (268 px, `chrome` background), then the work area.
   the tree (`nerd-tree`) and the agents list (`agents`) sharing the height,
   Herdr's footer (69 px).
 - **Tree header**, 31 px: "Spaces" in `dim` 11.5 px at left, a `+` (new space)
-  at right. While the tree has the keyboard, `j k  h l  ⏎  esc` in 10.5 px sits
+  at right. While the tree has the keyboard, `vim: j k h l ⏎ esc` in 10.5 px sits
   before the `+`.
 - **Space row**, 30 px (28 for a worktree), radius 8, 8 px left padding: a fold
   chevron (18 px box, 16 px Lucide chevron), 5 px, an 18 px rounded-5 avatar
