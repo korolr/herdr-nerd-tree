@@ -101,11 +101,11 @@
                 "pane": {
                   "header": {
                     "content": {
-                      "mod": "composer"
+                      "mod": "pane"
                     },
                     "reveal": "always",
                     "height": 30,
-                    "position": "bottom"
+                    "position": "top"
                   },
                   "background": "background",
                   "border": {
