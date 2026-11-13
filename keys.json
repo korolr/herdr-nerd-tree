@@ -1,0 +1,6 @@
+{
+  "global": {
+    "cmd-shift-e": "nerd-tree.focus",
+    "cmd-shift-t": "nerd-tree-tabs.chips"
+  }
+}
